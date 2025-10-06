@@ -1,0 +1,1120 @@
+{
+	"name": "WIN Weather Test",
+	"width": 1920,
+	"height": 1080,
+	"schema": {
+		"showPanel": {
+			"type": "boolean",
+			"label": "Show/Hide Glass Panel"
+		},
+		"title": {
+			"type": "string",
+			"label": "Title"
+		},
+		"subtitle": {
+			"type": "string",
+			"label": "Subtitle"
+		},
+		"backgroundImage": {
+			"type": "string",
+			"label": "Background Image URL (Optional)"
+		},
+		"weatherData": {
+			"type": "object",
+			"label": "Weather Data"
+		},
+		"config": {
+			"type": "object",
+			"label": "Configuration Override (optional)"
+		}
+	},
+	"previewData": {
+		"Standard List Min Max": {
+			"showPanel": true,
+			"weatherData": {
+				"rows": [
+					{
+						"type": "value",
+						"groups": [
+							{
+								"width": 100,
+								"cells": [
+									{
+										"type": "text",
+										"value": "Ballarat",
+										"color": "white50",
+										"width": 65,
+										"gap": 40,
+										"textAlign": "left"
+									},
+									{
+										"type": "value",
+										"value": "7",
+										"color": "blue",
+										"suffix": "°",
+										"gap": 0,
+										"width": 17.5,
+										"textAlign": "center"
+									},
+									{
+										"type": "value",
+										"value": "12",
+										"color": "orange",
+										"suffix": "°",
+										"gap": 0,
+										"width": 17.5,
+										"textAlign": "center"
+									}
+								]
+							}
+						]
+					},
+					{
+						"type": "value",
+						"groups": [
+							{
+								"width": 100,
+								"cells": [
+									{
+										"type": "text",
+										"value": "Bendigo",
+										"color": "white50",
+										"width": 65,
+										"gap": 40,
+										"textAlign": "left"
+									},
+									{
+										"type": "value",
+										"value": "4",
+										"color": "blue",
+										"suffix": "°",
+										"gap": 0,
+										"width": 17.5,
+										"textAlign": "center"
+									},
+									{
+										"type": "value",
+										"value": "15",
+										"color": "orange",
+										"suffix": "°",
+										"gap": 0,
+										"width": 17.5,
+										"textAlign": "center"
+									}
+								]
+							}
+						]
+					},
+					{
+						"type": "value",
+						"groups": [
+							{
+								"width": 100,
+								"cells": [
+									{
+										"type": "text",
+										"value": "Melbourne",
+										"color": "white50",
+										"width": 65,
+										"gap": 40,
+										"textAlign": "left"
+									},
+									{
+										"type": "value",
+										"value": "6",
+										"color": "blue",
+										"suffix": "°",
+										"gap": 0,
+										"width": 17.5,
+										"textAlign": "center"
+									},
+									{
+										"type": "value",
+										"value": "18",
+										"color": "orange",
+										"suffix": "°",
+										"gap": 0,
+										"width": 17.5,
+										"textAlign": "center"
+									}
+								]
+							}
+						]
+					},
+					{
+						"type": "value",
+						"groups": [
+							{
+								"width": 100,
+								"cells": [
+									{
+										"type": "text",
+										"value": "Geelong",
+										"color": "white50",
+										"width": 65,
+										"gap": 40,
+										"textAlign": "left"
+									},
+									{
+										"type": "value",
+										"value": "8",
+										"color": "blue",
+										"suffix": "°",
+										"gap": 0,
+										"width": 17.5,
+										"textAlign": "center"
+									},
+									{
+										"type": "value",
+										"value": "19",
+										"color": "orange",
+										"suffix": "°",
+										"gap": 0,
+										"width": 17.5,
+										"textAlign": "center"
+									}
+								]
+							}
+						]
+					},
+					{
+						"type": "value",
+						"groups": [
+							{
+								"width": 100,
+								"cells": [
+									{
+										"type": "text",
+										"value": "Shepparton",
+										"color": "white50",
+										"width": 65,
+										"gap": 40,
+										"textAlign": "left"
+									},
+									{
+										"type": "value",
+										"value": "-1",
+										"color": "blue",
+										"suffix": "°",
+										"gap": 0,
+										"width": 17.5,
+										"textAlign": "center"
+									},
+									{
+										"type": "value",
+										"value": "13",
+										"color": "orange",
+										"suffix": "°",
+										"gap": 0,
+										"width": 17.5,
+										"textAlign": "center"
+									}
+								]
+							}
+						]
+					},
+					{
+						"type": "value",
+						"groups": [
+							{
+								"width": 100,
+								"cells": [
+									{
+										"type": "text",
+										"value": "Albury",
+										"color": "white50",
+										"width": 65,
+										"gap": 40,
+										"textAlign": "left"
+									},
+									{
+										"type": "value",
+										"value": "0",
+										"color": "blue",
+										"suffix": "°",
+										"gap": 0,
+										"width": 17.5,
+										"textAlign": "center"
+									},
+									{
+										"type": "value",
+										"value": "12",
+										"color": "orange",
+										"suffix": "°",
+										"gap": 0,
+										"width": 17.5,
+										"textAlign": "center"
+									}
+								]
+							}
+						]
+					},
+					{
+						"type": "value",
+						"groups": [
+							{
+								"width": 100,
+								"cells": [
+									{
+										"type": "text",
+										"value": "Bright",
+										"color": "white50",
+										"width": 65,
+										"gap": 40,
+										"textAlign": "left"
+									},
+									{
+										"type": "value",
+										"value": "-3",
+										"color": "blue",
+										"suffix": "°",
+										"gap": 0,
+										"width": 17.5,
+										"textAlign": "center"
+									},
+									{
+										"type": "value",
+										"value": "8",
+										"color": "orange",
+										"suffix": "°",
+										"gap": 0,
+										"width": 17.5,
+										"textAlign": "center"
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			"title": "TEMPERATURES",
+			"subtitle": "TODAY",
+			"backgroundImage": "https://www.visitmelbourne.com/-/media/images/international/uk/great-ocean-road-trip/uk_great_ocean_road_drive_1150x863.jpg"
+		},
+		"Rainfall": {
+			"showPanel": true,
+			"config": {
+				"panel": {
+					"panelWidth": 80
+				}
+			},
+			"weatherData": {
+				"rows": [
+					{
+						"type": "value",
+						"groups": [
+							{
+								"width": 100,
+								"cells": [
+									{
+										"type": "text",
+										"value": "Newcastle",
+										"color": "white50",
+										"width": 80,
+										"gap": 0,
+										"textAlign": "left"
+									},
+									{
+										"type": "value",
+										"value": "15",
+										"color": "blue",
+										"suffix": "mm",
+										"width": 20,
+										"gap": 0,
+										"textAlign": "center"
+									}
+								]
+							}
+						]
+					},
+					{
+						"type": "value",
+						"groups": [
+							{
+								"width": 100,
+								"cells": [
+									{
+										"type": "text",
+										"value": "Wollongong",
+										"color": "white50",
+										"width": 80,
+										"gap": 0,
+										"textAlign": "left"
+									},
+									{
+										"type": "value",
+										"value": "22",
+										"color": "blue",
+										"suffix": "mm",
+										"width": 20,
+										"gap": 0,
+										"textAlign": "center"
+									}
+								]
+							}
+						]
+					},
+					{
+						"type": "value",
+						"groups": [
+							{
+								"width": 100,
+								"cells": [
+									{
+										"type": "text",
+										"value": "Central Coast",
+										"color": "white50",
+										"width": 80,
+										"gap": 0,
+										"textAlign": "left"
+									},
+									{
+										"type": "value",
+										"value": "8",
+										"color": "blue",
+										"suffix": "mm",
+										"width": 20,
+										"gap": 0,
+										"textAlign": "center"
+									}
+								]
+							}
+						]
+					},
+					{
+						"type": "value",
+						"groups": [
+							{
+								"width": 100,
+								"cells": [
+									{
+										"type": "text",
+										"value": "Blue Mountains",
+										"color": "white50",
+										"width": 80,
+										"gap": 0,
+										"textAlign": "left"
+									},
+									{
+										"type": "value",
+										"value": "35",
+										"color": "darkblue",
+										"suffix": "mm",
+										"width": 20,
+										"gap": 0,
+										"textAlign": "center"
+									}
+								]
+							}
+						]
+					},
+					{
+						"type": "value",
+						"groups": [
+							{
+								"width": 100,
+								"cells": [
+									{
+										"type": "text",
+										"value": "Hunter Valley",
+										"color": "white50",
+										"width": 80,
+										"gap": 0,
+										"textAlign": "left"
+									},
+									{
+										"type": "value",
+										"value": "12",
+										"color": "blue",
+										"suffix": "mm",
+										"width": 20,
+										"gap": 0,
+										"textAlign": "center"
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			"title": "RAINFALL",
+			"subtitle": "TODAY",
+			"backgroundImage": "https://images.pexels.com/photos/325676/pexels-photo-325676.jpeg"
+		},
+		"Fire Danger Rating": {
+			"showPanel": true,
+			"weatherData": {
+				"rows": [
+					{
+						"type": "title",
+						"groups": [
+							{
+								"width": 100,
+								"cells": [
+									{
+										"type": "text",
+										"value": "WARNINGS",
+										"color": "clear",
+										"width": 60,
+										"gap": 0,
+										"textAlign": "left"
+									},
+									{
+										"type": "value",
+										"value": "RATING",
+										"color": "clear",
+										"width": 40,
+										"gap": 0,
+										"textAlign": "center"
+									}
+								]
+							}
+						]
+					},
+					{
+						"type": "value",
+						"groups": [
+							{
+								"width": 100,
+								"cells": [
+									{
+										"type": "text",
+										"value": "Blue Mountains",
+										"color": "black",
+										"width": 60,
+										"gap": 0,
+										"textAlign": "center"
+									},
+									{
+										"type": "value",
+										"value": "EXTREME",
+										"color": "red",
+										"width": 40,
+										"gap": 0,
+										"textAlign": "center"
+									}
+								]
+							}
+						]
+					},
+					{
+						"type": "value",
+						"groups": [
+							{
+								"width": 100,
+								"cells": [
+									{
+										"type": "text",
+										"value": "Hunter Region",
+										"color": "black",
+										"width": 60,
+										"gap": 0,
+										"textAlign": "center"
+									},
+									{
+										"type": "value",
+										"value": "SEVERE",
+										"color": "orange",
+										"width": 40,
+										"gap": 0,
+										"textAlign": "center"
+									}
+								]
+							}
+						]
+					},
+					{
+						"type": "value",
+						"groups": [
+							{
+								"width": 100,
+								"cells": [
+									{
+										"type": "text",
+										"value": "Sydney Metro",
+										"color": "black",
+										"width": 60,
+										"gap": 0,
+										"textAlign": "center"
+									},
+									{
+										"type": "value",
+										"value": "HIGH",
+										"color": "yellow",
+										"width": 40,
+										"gap": 0,
+										"textAlign": "center"
+									}
+								]
+							}
+						]
+					},
+					{
+						"type": "title",
+						"groups": [
+							{
+								"width": 100,
+								"cells": [
+									{
+										"type": "text",
+										"value": "LOW RISK AREAS",
+										"color": "clear",
+										"width": 70,
+										"gap": 0,
+										"textAlign": "left"
+									},
+									{
+										"type": "value",
+										"value": "RATING",
+										"color": "clear",
+										"width": 30,
+										"gap": 0,
+										"textAlign": "center"
+									}
+								]
+							}
+						]
+					},
+					{
+						"type": "value",
+						"groups": [
+							{
+								"width": 100,
+								"cells": [
+									{
+										"type": "text",
+										"value": "South Coast",
+										"color": "white",
+										"width": 70,
+										"gap": 0,
+										"textAlign": "left"
+									},
+									{
+										"type": "value",
+										"value": "MODERATE",
+										"color": "green",
+										"width": 30,
+										"gap": 0,
+										"textAlign": "center"
+									}
+								]
+							}
+						]
+					},
+					{
+						"type": "value",
+						"groups": [
+							{
+								"width": 100,
+								"cells": [
+									{
+										"type": "text",
+										"value": "Illawarra",
+										"color": "white",
+										"width": 70,
+										"gap": 0,
+										"textAlign": "left"
+									},
+									{
+										"type": "value",
+										"value": "LOW",
+										"color": "blue",
+										"width": 30,
+										"gap": 0,
+										"textAlign": "center"
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			"title": "FIRE DANGER",
+			"subtitle": "TODAY'S RATING",
+			"backgroundImage": "https://images.pexels.com/photos/266487/pexels-photo-266487.jpeg"
+		},
+		"NRL Round 27": {
+			"showPanel": true,
+			"config": {
+				"panel": {
+					"panelWidth": 80
+				}
+			},
+			"weatherData": {
+				"rows": [
+					{
+						"type": "value",
+						"groups": [
+							{
+								"width": 45,
+								"entranceAnimation": {
+									"direction": "left"
+								},
+								"exitAnimation": {
+									"direction": "left"
+								},
+								"cells": [
+									{
+										"type": "text",
+										"value": "Broncos",
+										"color": "nrl-broncos",
+										"textAlign": "center",
+										"width": 80,
+										"gap": 0,
+										"cellOverlayImage": "https://www.nrl.com/.theme/broncos/silhouette.svg",
+										"cellOverlayOpacity": 0.2,
+										"cellOverlayFit": "width"
+									},
+									{
+										"type": "value",
+										"value": "30",
+										"color": "white",
+										"width": 20,
+										"gap": 0,
+										"textAlign": "center"
+									}
+								]
+							},
+							{
+								"width": 10,
+								"cells": [
+									{
+										"type": "value",
+										"value": "vs",
+										"color": "clear",
+										"textAlign": "center",
+										"width": 100,
+										"gap": 0
+									}
+								]
+							},
+							{
+								"width": 45,
+								"entranceAnimation": {
+									"direction": "right"
+								},
+								"exitAnimation": {
+									"direction": "right"
+								},
+								"cells": [
+									{
+										"type": "value",
+										"value": "14",
+										"color": "white",
+										"width": 20,
+										"gap": 0,
+										"textAlign": "center"
+									},
+									{
+										"type": "text",
+										"value": "Storm",
+										"color": "nrl-storm",
+										"textAlign": "center",
+										"width": 80,
+										"gap": 0,
+										"cellOverlayImage": "https://www.nrl.com/.theme/storm/silhouette.svg",
+										"cellOverlayOpacity": 0.2,
+										"cellOverlayFit": "width"
+									}
+								]
+							}
+						]
+					},
+					{
+						"type": "value",
+						"groups": [
+							{
+								"width": 45,
+								"entranceAnimation": {
+									"direction": "left"
+								},
+								"exitAnimation": {
+									"direction": "left"
+								},
+								"cells": [
+									{
+										"type": "text",
+										"value": "Sea Eagles",
+										"color": "nrl-seaeagles",
+										"textAlign": "center",
+										"width": 80,
+										"gap": 0,
+										"cellOverlayImage": "https://www.nrl.com/.theme/sea-eagles/silhouette.svg",
+										"cellOverlayOpacity": 0.2,
+										"cellOverlayFit": "width"
+									},
+									{
+										"type": "value",
+										"value": "27",
+										"color": "white",
+										"width": 20,
+										"gap": 0,
+										"textAlign": "center"
+									}
+								]
+							},
+							{
+								"width": 10,
+								"cells": [
+									{
+										"type": "value",
+										"value": "vs",
+										"color": "clear",
+										"textAlign": "center",
+										"width": 100,
+										"gap": 0
+									}
+								]
+							},
+							{
+								"width": 45,
+								"entranceAnimation": {
+									"direction": "right"
+								},
+								"exitAnimation": {
+									"direction": "right"
+								},
+								"cells": [
+									{
+										"type": "value",
+										"value": "26",
+										"color": "white",
+										"width": 20,
+										"gap": 0,
+										"textAlign": "center"
+									},
+									{
+										"type": "text",
+										"value": "Warriors",
+										"color": "nrl-warriors",
+										"textAlign": "center",
+										"width": 80,
+										"gap": 0,
+										"cellOverlayImage": "https://www.nrl.com/.theme/warriors/silhouette.svg",
+										"cellOverlayOpacity": 0.2,
+										"cellOverlayFit": "width"
+									}
+								]
+							}
+						]
+					},
+					{
+						"type": "value",
+						"groups": [
+							{
+								"width": 45,
+								"entranceAnimation": {
+									"direction": "left"
+								},
+								"exitAnimation": {
+									"direction": "left"
+								},
+								"cells": [
+									{
+										"type": "text",
+										"value": "Roosters",
+										"color": "nrl-roosters",
+										"textAlign": "center",
+										"width": 80,
+										"gap": 0,
+										"cellOverlayImage": "https://www.nrl.com/.theme/roosters/silhouette.svg",
+										"cellOverlayOpacity": 0.2,
+										"cellOverlayFit": "width"
+									},
+									{
+										"type": "value",
+										"value": "36",
+										"color": "white",
+										"width": 20,
+										"gap": 0,
+										"textAlign": "center"
+									}
+								]
+							},
+							{
+								"width": 10,
+								"cells": [
+									{
+										"type": "value",
+										"value": "vs",
+										"color": "clear",
+										"textAlign": "center",
+										"width": 100,
+										"gap": 0
+									}
+								]
+							},
+							{
+								"width": 45,
+								"entranceAnimation": {
+									"direction": "right"
+								},
+								"exitAnimation": {
+									"direction": "right"
+								},
+								"cells": [
+									{
+										"type": "value",
+										"value": "6",
+										"color": "white",
+										"width": 20,
+										"gap": 0,
+										"textAlign": "center"
+									},
+									{
+										"type": "text",
+										"value": "Rabbitohs",
+										"color": "nrl-rabbitohs",
+										"textAlign": "center",
+										"width": 80,
+										"gap": 0,
+										"cellOverlayImage": "https://www.nrl.com/.theme/rabbitohs/silhouette.svg",
+										"cellOverlayOpacity": 0.2,
+										"cellOverlayFit": "width"
+									}
+								]
+							}
+						]
+					},
+					{
+						"type": "value",
+						"groups": [
+							{
+								"width": 45,
+								"entranceAnimation": {
+									"direction": "left"
+								},
+								"exitAnimation": {
+									"direction": "left"
+								},
+								"cells": [
+									{
+										"type": "text",
+										"value": "Dragons",
+										"color": "nrl-dragons",
+										"textAlign": "center",
+										"width": 80,
+										"gap": 0,
+										"cellOverlayImage": "https://www.nrl.com/.theme/dragons/silhouette.svg",
+										"cellOverlayOpacity": 0.2,
+										"cellOverlayFit": "width"
+									},
+									{
+										"type": "value",
+										"value": "18",
+										"color": "white",
+										"width": 20,
+										"gap": 0,
+										"textAlign": "center"
+									}
+								]
+							},
+							{
+								"width": 10,
+								"cells": [
+									{
+										"type": "value",
+										"value": "vs",
+										"color": "clear",
+										"textAlign": "center",
+										"width": 100,
+										"gap": 0
+									}
+								]
+							},
+							{
+								"width": 45,
+								"entranceAnimation": {
+									"direction": "right"
+								},
+								"exitAnimation": {
+									"direction": "right"
+								},
+								"cells": [
+									{
+										"type": "value",
+										"value": "24",
+										"color": "white",
+										"width": 20,
+										"gap": 0,
+										"textAlign": "center"
+									},
+									{
+										"type": "text",
+										"value": "Panthers",
+										"color": "nrl-panthers",
+										"textAlign": "center",
+										"width": 80,
+										"gap": 0,
+										"cellOverlayImage": "https://www.nrl.com/.theme/panthers/silhouette.svg",
+										"cellOverlayOpacity": 0.2,
+										"cellOverlayFit": "width"
+									}
+								]
+							}
+						]
+					},
+					{
+						"type": "value",
+						"groups": [
+							{
+								"width": 45,
+								"entranceAnimation": {
+									"direction": "left"
+								},
+								"exitAnimation": {
+									"direction": "left"
+								},
+								"cells": [
+									{
+										"type": "text",
+										"value": "Titans",
+										"color": "nrl-titans",
+										"textAlign": "center",
+										"width": 80,
+										"gap": 0,
+										"cellOverlayImage": "https://www.nrl.com/.theme/titans/silhouette.svg",
+										"cellOverlayOpacity": 0.2,
+										"cellOverlayFit": "width"
+									},
+									{
+										"type": "value",
+										"value": "12",
+										"color": "white",
+										"width": 20,
+										"gap": 0,
+										"textAlign": "center"
+									}
+								]
+							},
+							{
+								"width": 10,
+								"cells": [
+									{
+										"type": "value",
+										"value": "vs",
+										"color": "clear",
+										"textAlign": "center",
+										"width": 100,
+										"gap": 0
+									}
+								]
+							},
+							{
+								"width": 45,
+								"entranceAnimation": {
+									"direction": "right"
+								},
+								"exitAnimation": {
+									"direction": "right"
+								},
+								"cells": [
+									{
+										"type": "value",
+										"value": "28",
+										"color": "white",
+										"width": 20,
+										"gap": 0,
+										"textAlign": "center"
+									},
+									{
+										"type": "text",
+										"value": "Tigers",
+										"color": "nrl-tigers",
+										"textAlign": "center",
+										"width": 80,
+										"gap": 0,
+										"cellOverlayImage": "https://www.nrl.com/.theme/wests-tigers/silhouette.svg",
+										"cellOverlayOpacity": 0.2,
+										"cellOverlayFit": "width"
+									}
+								]
+							}
+						]
+					},
+					{
+						"type": "value",
+						"groups": [
+							{
+								"width": 45,
+								"entranceAnimation": {
+									"direction": "left"
+								},
+								"exitAnimation": {
+									"direction": "left"
+								},
+								"cells": [
+									{
+										"type": "text",
+										"value": "Bulldogs",
+										"color": "nrl-bulldogs",
+										"textAlign": "center",
+										"width": 80,
+										"gap": 0,
+										"cellOverlayImage": "https://www.nrl.com/.theme/bulldogs/silhouette.svg",
+										"cellOverlayOpacity": 0.2,
+										"cellOverlayFit": "width"
+									},
+									{
+										"type": "value",
+										"value": "8",
+										"color": "white",
+										"width": 20,
+										"gap": 0,
+										"textAlign": "center"
+									}
+								]
+							},
+							{
+								"width": 10,
+								"cells": [
+									{
+										"type": "value",
+										"value": "vs",
+										"color": "clear",
+										"textAlign": "center",
+										"width": 100,
+										"gap": 0
+									}
+								]
+							},
+							{
+								"width": 45,
+								"entranceAnimation": {
+									"direction": "right"
+								},
+								"exitAnimation": {
+									"direction": "right"
+								},
+								"cells": [
+									{
+										"type": "value",
+										"value": "32",
+										"color": "white",
+										"width": 20,
+										"gap": 0,
+										"textAlign": "center"
+									},
+									{
+										"type": "text",
+										"value": "Sharks",
+										"color": "nrl-sharks",
+										"textAlign": "center",
+										"width": 80,
+										"gap": 0,
+										"cellOverlayImage": "https://www.nrl.com/.theme/sharks/silhouette.svg",
+										"cellOverlayOpacity": 0.2,
+										"cellOverlayFit": "width"
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			"title": "NRL ROUND 27",
+			"subtitle": "SEPTEMBER 2025",
+			"backgroundImage": "https://assets-au-01.kc-usercontent.com/1c344202-e9c0-02e1-35fd-d94199aa6f2b/08d2391c-a329-4ba6-83cb-ab14c1732c2e/67419440_Prematch%20Stadium%20View%20Pyro%203PLP0453_20229222428.jpg"
+		}
+	}
+}
